@@ -49,9 +49,13 @@ In a second terminal:
 npx poke tunnel http://localhost:8787/mcp --name "Device Info"
 ```
 
-Once you see **"Tools synced."**, your agent is live.
+Once you see **"Tools synced."**, the tunnel is running.
 
-### 4. Try it
+### 4. Connect it to your agent
+
+Go to [poke.com/integrations/new](https://poke.com/integrations/new) to connect the tunneled server to your Poke agent, or add it to a recipe in the [Poke Kitchen](https://poke.com/kitchen).
+
+### 5. Try it
 
 Text your Poke agent:
 
