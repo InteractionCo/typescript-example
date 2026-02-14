@@ -1,0 +1,32 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "description": "Build a local MCP server with the TreeHacks schedule, tunnel it to your [Poke](https://poke.com) agent, and ask it questions like \"What's happening at 3pm Saturday?\" over text.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InteractionCo/typescript-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InteractionCo/typescript-example/issues"
+  },
+  "homepage": "https://github.com/InteractionCo/typescript-example#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "poke": "^0.2.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
